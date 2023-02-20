@@ -1,0 +1,474 @@
+html,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color: blue; */
+    /* font-size: 50px; */
+    scroll-behavior: smooth;
+}
+
+.circle {
+    border-bottom: 5px solid blue !important;
+    border-left: 5px solid blue !important;
+
+    margin: 100px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    /* transition: 1s all; */
+    animation: circlemove 1s infinite linear;
+}
+
+@keyframes circlemove {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* -------------------------------------------------------------------- */
+
+.hotbtn {
+    all: unset;
+    /* border: 10px solid red; */
+    background-color: rgb(255, 0, 217);
+    color: white;
+    width: 10%;
+    border-radius: 50%;
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 50px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+.undersea {
+    /* border: 5px solid red; */
+    width: 90%;
+    height: 100vh;
+    margin: 10px auto 0;
+    position: relative;
+    transition: all;
+}
+
+.silent {
+    /* border: 5px solid rgb(6, 30, 244); */
+    position: absolute;
+    color: rgb(6, 49, 241);
+    width: 100%;
+    text-align: center;
+    top: 350px;
+    animation: silentmove 7s infinite;
+}
+
+@keyframes silentmove {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    70% {
+        transform: translate(0, 50px);
+        border-radius: 20px;
+    }
+}
+
+.sign {
+    /* border: 5px solid rgb(184, 22, 163); */
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    display: flex;
+    transition: all;
+}
+
+.signup {
+    /* float: left; */
+    color: white;
+    border: 3px solid rgb(249, 249, 249);
+    border-radius: 40px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 50px;
+    animation: move 5s infinite linear;
+}
+
+.signin {
+    /* float: right; */
+    color: white;
+    border: 3px solid rgb(249, 249, 249);
+    border-radius: 40px;
+    padding: 10px 20px;
+    left: 50px;
+    position: absolute;
+    animation: move 5s infinite linear;
+
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    70% {
+        transform: translate(0, 30px);
+        border-radius: 20px;
+    }
+}
+
+.wordimg {
+    border: 5px solid rgb(7, 7, 7);
+}
+
+.bubblesimg {
+    /* border: 5px solid rgb(6, 244, 49); */
+    width: 100%;
+    height: 99vh;
+    top: 0;
+    border-radius: 30px;
+}
+
+
+.bubble {
+    /* border: 5px solid rgb(7, 7, 7); */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    transition: all;
+    overflow: hidden;
+    padding-top: 94vh;
+}
+
+.bubblee {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes toup {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, -800px);
+        opacity: 0;
+    }
+}
+
+.bubblee1 {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    animation: toup 8s infinite;
+}
+
+.bubblee2 {
+    width: 40px;
+    height: 40px;
+    animation: toup 7s infinite;
+}
+
+.bubblee3 {
+    width: 50px;
+    height: 50px;
+    animation: toup 6s infinite;
+}
+
+.bubblee4 {
+    width: 50px;
+    height: 50px;
+    animation: toup 8s infinite;
+}
+
+.bubblee5 {
+    width: 50px;
+    height: 50px;
+    animation: toup 5s infinite;
+}
+
+.bubblee6 {
+    width: 50px;
+    height: 50px;
+    animation: toup 11s infinite;
+}
+
+.bubblee7 {
+    width: 50px;
+    height: 50px;
+    animation: toup 6s infinite;
+}
+
+.bubblee8 {
+    width: 20px;
+    height: 20px;
+    animation: toup 4s infinite;
+}
+
+.bubblee9 {
+    width: 50px;
+    height: 50px;
+    animation: toup 8s infinite;
+}
+
+.bubblee10 {
+    width: 40px;
+    height: 40px;
+    animation: toup 5s infinite;
+}
+
+.bubblee11 {
+    width: 20px;
+    height: 20px;
+    animation: toup 9s infinite;
+}
+
+.bubblee12 {
+    width: 40px;
+    height: 40px;
+    animation: toup 7s infinite;
+}
+
+.bubblee13 {
+    width: 50px;
+    height: 50px;
+    animation: toup 6s infinite;
+}
+
+.bubblee14 {
+    width: 50px;
+    height: 50px;
+    animation: toup 8s infinite;
+}
+
+.bubblee15 {
+    width: 40px;
+    height: 40px;
+    animation: toup 7s infinite;
+}
+
+.bubblee16 {
+    width: 30px;
+    height: 30px;
+    animation: toup 5s infinite;
+}
+
+.bubblee17 {
+    width: 40px;
+    height: 40px;
+    animation: toup 3s infinite;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+.mycarts h1 {
+    /* border: 3px solid rgb(255, 0, 234); */
+    color: rgb(251, 210, 2);
+    width: 100%;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 100px;
+}
+
+.mycarts {
+    /* border: 3px solid rgb(254, 178, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.mycart {
+    /* border: 3px solid rgb(255, 0, 234); */
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 30px auto;
+    background-color: white;
+    transition: 0.5s all;
+    border-radius: 20px;
+
+}
+
+.mycart:hover {
+    height: 400px;
+
+}
+
+.mycart img {
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
+    border-radius: 20px;
+    transition: 0.5s all;
+
+}
+
+.mycart:hover img {
+    margin-top: -100px;
+    border-radius: 50%;
+    transform: rotate(720deg);
+    width: 200px;
+    height: 200px;
+}
+
+.mycart h2 {
+    color: rgb(246, 3, 197);
+}
+
+.mycart p {
+    font-size: 20px;
+    color: white;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+    transition: 1s all;
+}
+
+.mycart:hover p {
+    opacity: 1;
+}
+
+/* -------------------------------------------------- */
+
+.icon-home2 {
+    /* border: 3px solid rgb(255, 0, 234); */
+    color: red;
+    text-align: center;
+    font-size: 500px;
+    height: 250px;
+    margin: auto;
+    background-image: url(images/spritesheet.png);
+}
+
+
+/* -------------------------------------------------- */
+
+
+.mycounter {
+    /* border: 3px solid rgb(255, 0, 234); */
+    margin: auto;
+    counter-reset: hend;
+
+}
+
+.mycounter li {
+    all: unset;
+    display: block;
+    margin: 30px;
+    color: black !important;
+
+
+}
+
+.mycounter li::before {
+    counter-increment: hend;
+    content: "" counter(hend) "  ";
+    background-color: palevioletred;
+    margin: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+
+.sprites {
+    /* border: 3px solid rgb(255, 0, 234); */
+    /* width: 70%; */
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+@media(max-width:740px) {
+    .sprites {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.sprites a {
+    /* border: 3px solid rgb(245, 237, 3); */
+    width: 70px;
+    height: 50px;
+    margin: auto 15px;
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+
+}
+
+.sprites .sprite1 {
+    background-position: -6px -19px;
+    background-size: 450px;
+}
+
+.sprites .sprite2 {
+    background-position: -81px -19px;
+    background-size: 450px;
+}
+
+.sprites .sprite3 {
+    background-position: -154px -16px;
+    background-size: 450px;
+}
+
+.sprites .sprite4 {
+    background-position: -237px -16px;
+    background-size: 450px;
+}
+
+.sprites .sprite5 {
+    background-position: -306px -16px;
+    background-size: 450px;
+}
+
+.sprites .sprite6 {
+    background-position: -381px -16px;
+    background-size: 450px;
+}
+
+/* --------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
